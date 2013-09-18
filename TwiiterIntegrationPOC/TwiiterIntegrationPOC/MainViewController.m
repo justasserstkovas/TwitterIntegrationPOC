@@ -8,6 +8,7 @@
 
 #import "MainViewController.h"
 #import "AppDelegate.h"
+#import <Social/Social.h>
 
 @interface MainViewController ()
 {
@@ -95,4 +96,21 @@
     }
 }
 
+- (IBAction)postTweet:(id)sender {
+    if ([SLComposeViewController isAvailableForServiceType:SLServiceTypeTwitter])
+    {
+        SLComposeViewController *tweetSheet = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
+        [tweetSheet setInitialText:@"#hash @JustasSerstkov"];
+        [self presentViewController:tweetSheet animated:YES completion:nil];
+    }
+    else
+    {
+        UIAlertView *alertView = [[UIAlertView alloc]
+                                  initWithTitle:@"Sorry"
+                                  message:@"#hash @JustasSerstkov"
+                                  delegate:self
+                                  cancelButtonTitle:@"OK"
+                                  otherButtonTitles:nil];
+        [alertView show];
+    }}
 @end

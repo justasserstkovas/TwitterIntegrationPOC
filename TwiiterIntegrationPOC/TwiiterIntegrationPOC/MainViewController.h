@@ -13,5 +13,7 @@
 @property (strong, nonatomic) UIPopoverController *flipsidePopoverController;
 
 - (IBAction)showInfo:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *postTweet;
+- (IBAction)postTweet:(id)sender;
 
 @end
