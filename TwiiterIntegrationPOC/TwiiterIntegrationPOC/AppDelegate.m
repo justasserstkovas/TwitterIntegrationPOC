@@ -12,6 +12,11 @@
 
 @implementation AppDelegate
 
++(AppDelegate*)instance{
+    
+    return (AppDelegate *)[[UIApplication sharedApplication] delegate];
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
@@ -19,8 +24,34 @@
     self.mainViewController = [[MainViewController alloc] initWithNibName:@"MainViewController" bundle:nil];
     self.window.rootViewController = self.mainViewController;
     [self.window makeKeyAndVisible];
+    
+    self.accountStore = [[ACAccountStore alloc] init];
+    self.twitterAdapter = [[TwitterAdapter alloc] init];
+    
+    TwitterAdapter *twitterLocalTest = [[TwitterAdapter alloc] init];
+    [twitterLocalTest accessTwitterAccountWithAccountStore:self.accountStore];
+    
+    
     return YES;
 }
+
+-(void)accessTwitterAccount{
+    
+    [self.twitterAdapter accessTwitterAccountWithAccountStore:self.accountStore];
+}
+
+-(void)showError:(NSString*)errorMessage{
+    
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Error"
+                                                        message:errorMessage
+                                                       delegate:nil
+                                              cancelButtonTitle:@"Dismiss" otherButtonTitles:nil];
+    
+    dispatch_sync(dispatch_get_main_queue(), ^{
+        [alertView show];
+    });
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {

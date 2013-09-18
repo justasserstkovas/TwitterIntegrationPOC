@@ -20,6 +20,17 @@
 		35F453B017E96686006A94B8 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F453AF17E96686006A94B8 /* FlipsideViewController.m */; };
 		35F453B317E96686006A94B8 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35F453B117E96686006A94B8 /* MainViewController.xib */; };
 		35F453B617E96686006A94B8 /* FlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35F453B417E96686006A94B8 /* FlipsideViewController.xib */; };
+		35F453BE17E971AA006A94B8 /* TwitterAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F453BC17E971AA006A94B8 /* TwitterAdapter.m */; };
+		35F453C217E97203006A94B8 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F453C117E97203006A94B8 /* Social.framework */; };
+		35F453C417E9726E006A94B8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F453C317E9726E006A94B8 /* QuartzCore.framework */; };
+		35F453C517E972E6006A94B8 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F453BF17E971F7006A94B8 /* Accounts.framework */; };
+		35F453D417E973AE006A94B8 /* ISRefresgControlIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 35F453C817E973AE006A94B8 /* ISRefresgControlIcon.png */; };
+		35F453D517E973AE006A94B8 /* ISRefresgControlIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35F453C917E973AE006A94B8 /* ISRefresgControlIcon@2x.png */; };
+		35F453D617E973AE006A94B8 /* ISGumView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F453CB17E973AE006A94B8 /* ISGumView.m */; };
+		35F453D717E973AE006A94B8 /* ISRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F453CD17E973AE006A94B8 /* ISRefreshControl.m */; };
+		35F453D817E973AE006A94B8 /* ISUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F453CF17E973AE006A94B8 /* ISUtility.m */; };
+		35F453D917E973AE006A94B8 /* UIActivityIndicatorView+ScaleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F453D117E973AE006A94B8 /* UIActivityIndicatorView+ScaleAnimation.m */; };
+		35F453DA17E973AE006A94B8 /* UITableViewController+RefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F453D317E973AE006A94B8 /* UITableViewController+RefreshControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +53,23 @@
 		35F453AF17E96686006A94B8 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
 		35F453B217E96686006A94B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainViewController.xib; sourceTree = "<group>"; };
 		35F453B517E96686006A94B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FlipsideViewController.xib; sourceTree = "<group>"; };
+		35F453BC17E971AA006A94B8 /* TwitterAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterAdapter.m; sourceTree = "<group>"; };
+		35F453BD17E971AA006A94B8 /* TwitterAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterAdapter.h; sourceTree = "<group>"; };
+		35F453BF17E971F7006A94B8 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		35F453C117E97203006A94B8 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		35F453C317E9726E006A94B8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		35F453C817E973AE006A94B8 /* ISRefresgControlIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ISRefresgControlIcon.png; sourceTree = "<group>"; };
+		35F453C917E973AE006A94B8 /* ISRefresgControlIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ISRefresgControlIcon@2x.png"; sourceTree = "<group>"; };
+		35F453CA17E973AE006A94B8 /* ISGumView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISGumView.h; sourceTree = "<group>"; };
+		35F453CB17E973AE006A94B8 /* ISGumView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISGumView.m; sourceTree = "<group>"; };
+		35F453CC17E973AE006A94B8 /* ISRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISRefreshControl.h; sourceTree = "<group>"; };
+		35F453CD17E973AE006A94B8 /* ISRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISRefreshControl.m; sourceTree = "<group>"; };
+		35F453CE17E973AE006A94B8 /* ISUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISUtility.h; sourceTree = "<group>"; };
+		35F453CF17E973AE006A94B8 /* ISUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISUtility.m; sourceTree = "<group>"; };
+		35F453D017E973AE006A94B8 /* UIActivityIndicatorView+ScaleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+ScaleAnimation.h"; sourceTree = "<group>"; };
+		35F453D117E973AE006A94B8 /* UIActivityIndicatorView+ScaleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+ScaleAnimation.m"; sourceTree = "<group>"; };
+		35F453D217E973AE006A94B8 /* UITableViewController+RefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewController+RefreshControl.h"; sourceTree = "<group>"; };
+		35F453D317E973AE006A94B8 /* UITableViewController+RefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewController+RefreshControl.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +77,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35F453C517E972E6006A94B8 /* Accounts.framework in Frameworks */,
+				35F453C417E9726E006A94B8 /* QuartzCore.framework in Frameworks */,
+				35F453C217E97203006A94B8 /* Social.framework in Frameworks */,
 				35F4539417E96686006A94B8 /* UIKit.framework in Frameworks */,
 				35F4539617E96686006A94B8 /* Foundation.framework in Frameworks */,
 				35F4539817E96686006A94B8 /* CoreGraphics.framework in Frameworks */,
@@ -61,6 +92,9 @@
 		35F4538717E96686006A94B8 = {
 			isa = PBXGroup;
 			children = (
+				35F453C317E9726E006A94B8 /* QuartzCore.framework */,
+				35F453C117E97203006A94B8 /* Social.framework */,
+				35F453BF17E971F7006A94B8 /* Accounts.framework */,
 				35F4539917E96686006A94B8 /* TwiiterIntegrationPOC */,
 				35F4539217E96686006A94B8 /* Frameworks */,
 				35F4539117E96686006A94B8 /* Products */,
@@ -96,6 +130,9 @@
 				35F453AF17E96686006A94B8 /* FlipsideViewController.m */,
 				35F453B117E96686006A94B8 /* MainViewController.xib */,
 				35F453B417E96686006A94B8 /* FlipsideViewController.xib */,
+				35F453BC17E971AA006A94B8 /* TwitterAdapter.m */,
+				35F453BD17E971AA006A94B8 /* TwitterAdapter.h */,
+				35F453C617E973AE006A94B8 /* ISRefreshControl */,
 				35F4539A17E96686006A94B8 /* Supporting Files */,
 			);
 			path = TwiiterIntegrationPOC;
@@ -113,6 +150,33 @@
 				35F453A917E96686006A94B8 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		35F453C617E973AE006A94B8 /* ISRefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+				35F453C717E973AE006A94B8 /* Images */,
+				35F453CA17E973AE006A94B8 /* ISGumView.h */,
+				35F453CB17E973AE006A94B8 /* ISGumView.m */,
+				35F453CC17E973AE006A94B8 /* ISRefreshControl.h */,
+				35F453CD17E973AE006A94B8 /* ISRefreshControl.m */,
+				35F453CE17E973AE006A94B8 /* ISUtility.h */,
+				35F453CF17E973AE006A94B8 /* ISUtility.m */,
+				35F453D017E973AE006A94B8 /* UIActivityIndicatorView+ScaleAnimation.h */,
+				35F453D117E973AE006A94B8 /* UIActivityIndicatorView+ScaleAnimation.m */,
+				35F453D217E973AE006A94B8 /* UITableViewController+RefreshControl.h */,
+				35F453D317E973AE006A94B8 /* UITableViewController+RefreshControl.m */,
+			);
+			path = ISRefreshControl;
+			sourceTree = "<group>";
+		};
+		35F453C717E973AE006A94B8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				35F453C817E973AE006A94B8 /* ISRefresgControlIcon.png */,
+				35F453C917E973AE006A94B8 /* ISRefresgControlIcon@2x.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +236,8 @@
 				35F453AA17E96686006A94B8 /* Default-568h@2x.png in Resources */,
 				35F453B317E96686006A94B8 /* MainViewController.xib in Resources */,
 				35F453B617E96686006A94B8 /* FlipsideViewController.xib in Resources */,
+				35F453D417E973AE006A94B8 /* ISRefresgControlIcon.png in Resources */,
+				35F453D517E973AE006A94B8 /* ISRefresgControlIcon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +252,12 @@
 				35F453A417E96686006A94B8 /* AppDelegate.m in Sources */,
 				35F453AD17E96686006A94B8 /* MainViewController.m in Sources */,
 				35F453B017E96686006A94B8 /* FlipsideViewController.m in Sources */,
+				35F453BE17E971AA006A94B8 /* TwitterAdapter.m in Sources */,
+				35F453D617E973AE006A94B8 /* ISGumView.m in Sources */,
+				35F453D717E973AE006A94B8 /* ISRefreshControl.m in Sources */,
+				35F453D817E973AE006A94B8 /* ISUtility.m in Sources */,
+				35F453D917E973AE006A94B8 /* UIActivityIndicatorView+ScaleAnimation.m in Sources */,
+				35F453DA17E973AE006A94B8 /* UITableViewController+RefreshControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
